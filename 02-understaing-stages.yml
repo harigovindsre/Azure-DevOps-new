@@ -11,7 +11,7 @@ stages:
     steps: 
     - bash: echo build FirstJob
     - bash: echo $(PipelineLevelVariable)
-    - bash: ehco $(Build.BuildNumber)
+    - bash: echo $(Build.BuildNumber)
     - bash: echo $(Build.BuildId)
     - bash: echo $(Build.SourceBranchName)
     - bash: echo $(Build.SourcesDirectory)
